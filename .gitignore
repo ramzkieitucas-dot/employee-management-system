@@ -1,0 +1,27 @@
+# ---------- .NET ----------
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+
+# Uploaded profile photos (keep the folder, not the files)
+EmployeeManagement.API/wwwroot/uploads/employees/*
+!EmployeeManagement.API/wwwroot/uploads/employees/.gitkeep
+
+# ---------- Next.js ----------
+employee-management-ui/node_modules/
+employee-management-ui/.next/
+employee-management-ui/out/
+employee-management-ui/next-env.d.ts
+*.tsbuildinfo
+
+# Secrets / local settings
+.env
+.env.local
+.env.*.local
+
+# ---------- OS / editors ----------
+.DS_Store
+Thumbs.db
